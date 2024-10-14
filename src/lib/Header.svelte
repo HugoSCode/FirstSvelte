@@ -7,8 +7,8 @@ export let headingTitle;
 <nav>
     <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Contact</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
     </ul>
 </nav>
 </header>
@@ -17,7 +17,8 @@ export let headingTitle;
     header{
         font-family: sans-serif;
         background-color:lightgray;
-        padding: 1em;
+        padding-left: 0;
+        padding-right: 0;
     }
 h1{
     display: flex;
@@ -25,19 +26,22 @@ h1{
 }
 li{
     list-style: none;
-    display: flex;
-    justify-content: space-between;
     border-radius: 1em;
-    border: 2em; border-color:black;
 }
 ul{
-    background-color: darkgray;
-    padding:2em;
+    background-color: rgb(103, 134, 238);
     display: flex;
     justify-content: space-around;
+    border: 1em solid black;
+    
 }
 a{
+    color: black;
     text-decoration: none;
     font-size: large;
+    font-weight: bold;
+    display: block;
+    padding: 1.5em;
+    text-align: center;
 }
 </style>
