@@ -12,6 +12,6 @@
   <style>
   body{
     font-family: 'Times New Roman', Times, serif;
-    background-color:#D3D3D3;
+    background-color:#e2e2e2;
   }
   </style>

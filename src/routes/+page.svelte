@@ -2,16 +2,21 @@
     import Header from "$lib/Header.svelte"
 </script>
 <body>
-    <Header headingTitle="Home page"/>
+    <Header headingTitle="Everything Premier league"/>
 
 <h1></h1>
 <p></p>
-<div>
-    <p>yoYo</p>
-</div>
+
 </body>
 <style>
     body{
-        background-color: #D3D3D3;
+        background-color: #e2e2e2;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(71, 71, 71);
     }
+    * {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0; 
+}
 </style>

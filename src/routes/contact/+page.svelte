@@ -37,7 +37,7 @@
     margin-bottom: 1em;
 }
 body{
-    font-family:'Times New Roman', Times, serif;
-    background-color:#D3D3D3 ;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#e2e2e2 ;
 }
 </style>
