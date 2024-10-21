@@ -4,8 +4,9 @@
 <body>
     <Header headingTitle="Everything Premier league"/>
 
-<h1></h1>
-<p></p>
+    <aside>
+        sidebar
+    </aside>
 
 </body>
 <style>
@@ -15,8 +16,11 @@
         color: rgb(71, 71, 71);
     }
     * {
-    box-sizing: border-box; 
     margin: 0;
     padding: 0; 
+}
+aside{
+background-color: aliceblue;
+
 }
 </style>

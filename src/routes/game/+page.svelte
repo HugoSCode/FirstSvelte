@@ -18,13 +18,5 @@ import Header from "$lib/Header.svelte";
 </body>
 
 <style>
-body{
-display: grid;
-grid-template-columns: 1fr 1fr	;
-}
-.column1 {
-    grid-column: 1;
-}
-Header{
-}
+
 </style>
